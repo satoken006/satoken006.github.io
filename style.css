@@ -3,14 +3,23 @@ body{
     margin: 0 auto;
 }
 
-h1, h2{
+div.title{
+    color: #009;
+    font-size: 60px;
+}
+
+div.topic{
+    border-bottom: double;
+    color: #009;
+    font-size: 30px;
+}
+
+h2{
+    color: #009;
     text-decoration: underline;
 }
 
 a:link{ text-decoration: none; }
-
-a:visited{}
-
+a:visited{ color: #009 }
 a:hover{ text-decoration: underline; }
-
 a:active{}
