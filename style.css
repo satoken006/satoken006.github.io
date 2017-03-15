@@ -1,25 +1,48 @@
 body{
     width: 70%;
     margin: 0 auto;
+    font-family: YuMincho, serif;
+    background-color: #edc;
 }
 
 div.title{
-    color: #009;
+    margin-bottom: 20px;
+    padding-left: 30px;
     font-size: 60px;
+    background-color: #009;
+    color: white;
 }
 
 div.topic{
     border-bottom: double;
+    padding-left: 10px;
     color: #009;
     font-size: 30px;
 }
 
-h2{
-    color: #009;
-    text-decoration: underline;
+#profile_img{
+    width: 100px;
+    border-radius: 200px;
+    margin-top: 20px;
 }
 
-a:link{ text-decoration: none; }
-a:visited{ color: #009 }
-a:hover{ text-decoration: underline; }
-a:active{}
+li{
+    margin-top: 0.75em;
+}
+
+a:link{ 
+    text-decoration: none; 
+}
+
+a:visited{ 
+    color: blue;
+}
+
+a:hover{ 
+    text-decoration: underline; 
+    color: blue;
+}
+
+a:active{ 
+    color: orange;
+}
