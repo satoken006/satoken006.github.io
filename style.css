@@ -30,6 +30,12 @@ li{
     margin-top: 0.75em;
 }
 
+div.publication_type{
+    padding: 20px 0px 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 a:link{ 
     text-decoration: none; 
 }
